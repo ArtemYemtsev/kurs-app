@@ -1,0 +1,17 @@
+.header {
+  color: #0D0D0D;
+  background: #f4f4f4;
+  padding: 2.4rem 0;
+
+  &__logo {
+    font-size: 3.2rem;
+    display: flex;
+    align-items: center;
+
+    svg {
+      width: 4rem;
+      height: 4rem;
+      margin-right: 1.6rem;
+    }
+  }
+}

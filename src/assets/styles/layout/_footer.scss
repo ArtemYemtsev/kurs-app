@@ -1,0 +1,27 @@
+.footer {
+  font-size: 1.8rem;
+  color: white;
+  background-color: #0D0D0D;
+  padding: 1.8rem 0;
+  margin-top: auto;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+
+    svg {
+      width: 4rem;
+      height: 4rem;
+      margin-right: 1.6rem;
+    }
+  }
+
+  &__developer {
+    margin-left: auto;
+  }
+}
