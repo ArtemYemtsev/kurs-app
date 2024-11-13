@@ -1,14 +1,16 @@
 <template>
   <section class="main">
-    <div class="container">
-      <div class="main__inner">
-        Main section
-      </div>
+    <div class="main__inner">
+      <SearchForm />
+      <FilterForm />
+      <MainTable />
     </div>
-  </section>
+</section>
 </template>
 <script lang="ts" setup>
-
+import SearchForm from '@/components/Form/SearchForm.vue'
+import FilterForm from '@/components/Form/FilterForm.vue'
+import MainTable from '@/components/Table/MainTable.vue'
 </script>
 
 <style lang="scss">
